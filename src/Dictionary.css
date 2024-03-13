@@ -1,3 +1,18 @@
+header {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./book-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 150px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
 .row {
   max-width: 30%;
   margin: 0 auto;
