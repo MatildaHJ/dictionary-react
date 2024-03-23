@@ -1,0 +1,17 @@
+.Photos {
+  display: block;
+  background-color: white;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 60%;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.Photos .row {
+  margin: 0 auto;
+}
+.Photos img {
+  border-radius: 3px;
+  margin: 10px 0 10px 0;
+}

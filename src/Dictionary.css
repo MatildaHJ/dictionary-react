@@ -9,14 +9,13 @@ header {
 }
 .Dictionary input {
   color: #333;
-  text-transform: capitalize;
 }
 h2 {
   font-size: 24px;
   margin: 20px 0;
 }
 
-.row {
+.Dictionary form .row {
   max-width: 30%;
   margin: 0 auto;
 }
