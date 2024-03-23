@@ -1,16 +1,9 @@
 .Meanings {
   margin-top: 40px;
 }
-h4,
-h5,
-p {
-  margin-left: 250px;
-}
+
 h4 {
   font-size: 20px;
   color: #6b6b6b;
   margin-bottom: 16px;
-}
-h5 {
-  font-size: 16px;
 }

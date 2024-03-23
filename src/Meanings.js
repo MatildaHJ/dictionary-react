@@ -6,15 +6,21 @@ export default function Meanings(props) {
   console.log(props.meanings);
   return (
     <div className="Meanings">
-      <h4>{props.meanings.partOfSpeech}</h4>
-      <h5>
-        <strong>Definition: </strong>
-      </h5>
-      <p>{props.meanings.definition}</p>
-      <em>
-        <p className="word-example">{props.meanings.example}</p>
-      </em>
-      <Synonyms synonyms={props.meanings.synonyms} />
+      <section>
+        <h4>{props.meanings.partOfSpeech}</h4>
+
+        <p>
+          <strong>Definition: </strong>
+
+          {props.meanings.definition}
+        </p>
+
+        <em>
+          <p className="word-example">{props.meanings.example}</p>
+        </em>
+
+        <Synonyms synonyms={props.meanings.synonyms} />
+      </section>
     </div>
   );
 }

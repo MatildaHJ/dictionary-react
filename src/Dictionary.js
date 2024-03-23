@@ -28,7 +28,7 @@ export default function Dictionary() {
       <header>
         <h1>Dictionary</h1>
         <h2>What word do you want to look up?</h2>
-        <form onSubmit={search} className="mt-4">
+        <form id="form" onSubmit={search} className="mt-4">
           <div className="row">
             <div className="col-9">
               <input

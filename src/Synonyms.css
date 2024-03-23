@@ -1,7 +1,8 @@
 .Synonyms {
-  background-color: #f0f0f0;
-  padding: 10px 0;
+  margin-top: 10px;
 }
-.synonym-words {
+
+.Synonyms .synonym-words {
   color: #47bbbb;
+  margin-right: 50px;
 }

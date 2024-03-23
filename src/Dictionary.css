@@ -1,13 +1,15 @@
 header {
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-    url("./book-img.jpg");
+    url("./book-img1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding: 150px 0;
+  padding: 180px 0;
 }
-
+.Dictionary input {
+  color: #333;
+}
 h2 {
   font-size: 24px;
   margin: 20px 0;
@@ -29,7 +31,7 @@ h2 {
 .btn {
   background-color: #47bbbb;
   border: none;
-  padding: 6px 20px;
+  padding: 7px 20px;
 }
 .btn:hover {
   background-color: #41adad;

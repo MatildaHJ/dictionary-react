@@ -1,11 +1,17 @@
 .Results {
   margin-top: 50px;
 }
+.Results section {
+  display: block;
+  background-color: white;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 60%;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
 h3 {
   font-size: 42px;
-  margin-left: 250px;
   text-transform: capitalize;
-}
-.Results .phonetic {
-  margin-left: 250px;
 }
