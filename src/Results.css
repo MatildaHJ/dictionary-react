@@ -10,7 +10,11 @@
   border-radius: 6px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
-
+.Results .phonetic {
+  color: #858585;
+  font-size: 18px;
+  font-weight: bold;
+}
 h3 {
   font-size: 42px;
   text-transform: capitalize;

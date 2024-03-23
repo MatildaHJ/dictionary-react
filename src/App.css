@@ -17,7 +17,7 @@
 footer {
   background-color: black;
   margin-top: 45px;
-  padding: 60px 0;
+  padding: 65px 0 45px 0;
 }
 
 footer h5 {
@@ -25,25 +25,29 @@ footer h5 {
   font-weight: bold;
   color: white;
 }
-
+footer p {
+  max-width: 80%;
+}
 .footer-text {
   font-size: 12px;
-  color: #7e7e7e;
+  color: #9a9a9a;
 }
 a {
-  color: #7e7e7e;
-}
-a:hover,
-.fa-brands:hover {
-  color: white;
+  color: #47bbbb;
   text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+.fa-brands:hover {
+  color: #47bbbb;
 }
 .footer-icons {
   display: flex;
   justify-content: flex-end;
-  margin-top: 28px;
+  margin-top: 26px;
 }
 .fa-brands {
-  color: #7e7e7e;
+  color: #9a9a9a;
   padding: 0 5px;
 }

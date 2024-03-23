@@ -9,6 +9,7 @@ header {
 }
 .Dictionary input {
   color: #333;
+  text-transform: capitalize;
 }
 h2 {
   font-size: 24px;

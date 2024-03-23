@@ -6,14 +6,14 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Dictionary />
+        <Dictionary defaultKeyword="hello" />
         <footer>
           <section className="grid grid-2-columns">
             <div>
               <h5>About this website</h5>
               <p className="footer-text">
                 This project was made by <strong>Matilda Larsson</strong> as
-                part of SheCodes workshop React Add-on and is{" "}
+                part of SheCodes React Add-on workshop and is{" "}
                 <a
                   href="https://github.com/MatildaHJ/dictionary-react"
                   target="_blank"

@@ -9,11 +9,7 @@ export default function Meanings(props) {
       <section>
         <h4>{props.meanings.partOfSpeech}</h4>
 
-        <p>
-          <strong>Definition: </strong>
-
-          {props.meanings.definition}
-        </p>
+        <p>{props.meanings.definition}</p>
 
         <em>
           <p className="word-example">{props.meanings.example}</p>

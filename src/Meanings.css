@@ -2,8 +2,11 @@
   margin-top: 40px;
 }
 
-h4 {
-  font-size: 20px;
+.Meanings h4 {
+  font-size: 22px;
   color: #6b6b6b;
   margin-bottom: 16px;
+}
+.Meanings .word-example {
+  color: #6b6b6b;
 }
